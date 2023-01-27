@@ -5,6 +5,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+
+<link rel="stylesheet" type="text/css" href="resources/css/common.css">
 </head>
 <body>
 	<h1>Yoil3</h1>

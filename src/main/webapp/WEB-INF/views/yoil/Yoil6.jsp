@@ -10,7 +10,7 @@
 	<h1>Yoil6</h1>
 	year : ${year }<br>
 	Month: ${month}<br>
-	Day: ${day}<br>
+	Day: ${yoildto.day}<br>
 	Yoil: ${yoil}<br>
 	
 </body>

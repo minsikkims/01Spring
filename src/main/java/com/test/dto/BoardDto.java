@@ -22,7 +22,5 @@ public class BoardDto {
 	private String dirpath;
 	private String filename;
 	private String filesize;
-	
-	
-	
+
 }
