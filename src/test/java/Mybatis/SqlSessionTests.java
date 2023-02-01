@@ -14,27 +14,29 @@
 //@RunWith(SpringJUnit4ClassRunner.class)
 //@ContextConfiguration("file:src/main/webapp/WEB-INF/spring/root-context.xml")
 //@Log4j
-//public class SqlSession {
+//public class SqlSessionTests {
 //
 //	@Autowired
 //	SqlSessionFactory ssf;
-//
+//	
 //	@Autowired
-//	SqlSession session;
-//
-//	@Test
+//	SqlSessionTests session;
+//	
+//	@Test 
 //	public void func1() {
-//		log.info("SSF : " + ssf);
-//		SqlSession dbs = ssf.openSession();
+//		log.info("SSF : "+ssf);
+//		SqlSessionTests dbs = ssf.openSession();
 //		Connection conn = dbs.getConnection();
 //		log.info("CONN : " + conn);
 //	}
-//
-//	@Test
+//	@Test 
 //	public void func2() {
 //		log.info("session : " + session);
 //		Connection conn = session.getConnection();
-//		log.info("conn : " + conn);
+//		log.info("CONN : " + conn);	
 //	}
-//
 //}
+//
+//
+//
+//

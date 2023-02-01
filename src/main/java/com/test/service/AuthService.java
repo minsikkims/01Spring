@@ -1,15 +1,9 @@
 package com.test.service;
 
-import java.net.PasswordAuthentication;
-import java.util.Map;
-import java.util.Properties;
-
-
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import org.mindrot.bcrypt.BCrypt;
+import org.mindrot.jbcrypt.BCrypt;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

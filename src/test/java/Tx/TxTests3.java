@@ -24,20 +24,23 @@ public class TxTests3 {
 	
 	@Test
 	public void func1() throws Exception{
-								//Tx간 독립적으로 동작
-		aservice.func1();	//tx
-		bservice.func1();	//tx
+		//	Tx간 독립적으로 동작
+		aservice.func1();	//tx	-commit
+		bservice.func1();	//tx	-commit
 		
 	}
 	@Test
 	public void func2() throws Exception{
-								// propagation=Propagation.Required //변경
+		 				// propagation=Propagation.Required(기본값적용)
 		aservice.func2();
 	}
 	@Test
 	public void func3() throws Exception{
-		aservice.func3();
+		aservice.func3(); 
 	}
+	
+	
+	
 	
 
 }
